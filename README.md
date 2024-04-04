@@ -20,7 +20,7 @@ The server will run on port 3000 by default, or you can specify a port using the
 ### 1. Create Checkout Session
 
 - **URL:** `/api/create-checkout-session`
-- **Method:** `GET`
+- **Method:** `POST`
 - **Description:** Create a checkout session.
 - **Response:**
   ```json
@@ -32,7 +32,7 @@ The server will run on port 3000 by default, or you can specify a port using the
 ### 2. Make Toingg
 
 - **URL:** `/api/make_toingg`
-- **Method:** `GET`
+- **Method:** `POST`
 - **Description:** Make a toingg.
 - **Response:**
   ```json
@@ -46,7 +46,7 @@ The server will run on port 3000 by default, or you can specify a port using the
 ### 3. Make Toingg Details
 
 - **URL:** `/api/make_toingg_details`
-- **Method:** `GET`
+- **Method:** `POST`
 - **Description:** Retrieve details of a toingg.
 - **Response:**
   ```json
@@ -61,7 +61,7 @@ The server will run on port 3000 by default, or you can specify a port using the
 ### 4. Make Batch Toingg
 
 - **URL:** `/api/make_batch_toingg`
-- **Method:** `GET`
+- **Method:** `POST`
 - **Description:** Create batch toingg.
 - **Response:**
   ```json
@@ -79,7 +79,7 @@ The server will run on port 3000 by default, or you can specify a port using the
 ### 5. Hang Up Call
 
 - **URL:** `/api/hang_up_call`
-- **Method:** `GET`
+- **Method:** `POST`
 - **Description:** Hang up a call.
 - **Response:**
   ```json
@@ -97,7 +97,7 @@ The server will run on port 3000 by default, or you can specify a port using the
 ### 6. Send SMS
 
 - **URL:** `/api/send_sms`
-- **Method:** `GET`
+- **Method:** `POST`
 - **Description:** Send an SMS.
 - **Response:**
   ```json
@@ -111,7 +111,7 @@ The server will run on port 3000 by default, or you can specify a port using the
 ### 7. Webhook
 
 - **URL:** `/api/webhook`
-- **Method:** `GET`
+- **Method:** `POST`
 - **Description:** Handle webhook requests.
 - **Response:**
   ```json
