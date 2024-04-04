@@ -37,8 +37,9 @@ The server will run on port 3000 by default, or you can specify a port using the
 - **Response:**
   ```json
   {
-    "id": 173,
-    "message": "Toingg created successfully"
+    "campaign": "string",
+    "name": "string",
+    "phoneNumber": "string"
   }
 
 
