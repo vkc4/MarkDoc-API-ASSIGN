@@ -18,8 +18,9 @@ app.get("/api/create-checkout-session", (req, res) => {
 app.get("/api/make_toingg", (req, res) => {
   // Implement your logic for making toingg
   res.status(200).json({
-    id: 173,
-    message: "Toingg created successfully",
+    campaign: "string",
+    name: "string",
+    phoneNumber: "string"
   });
 });
 
